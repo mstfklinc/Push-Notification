@@ -18,6 +18,7 @@
 		FA6999A22704785900D4174D /* Push_NotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6999A12704785900D4174D /* Push_NotificationTests.m */; };
 		FA6999AC2704785900D4174D /* Push_NotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6999AB2704785900D4174D /* Push_NotificationUITests.m */; };
 		FA6999AE2704785900D4174D /* Push_NotificationUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6999AD2704785900D4174D /* Push_NotificationUITestsLaunchTests.m */; };
+		FA6999BC2704790A00D4174D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6999BB2704790A00D4174D /* UserNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		FA6999A72704785900D4174D /* Push NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Push NotificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6999AB2704785900D4174D /* Push_NotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Push_NotificationUITests.m; sourceTree = "<group>"; };
 		FA6999AD2704785900D4174D /* Push_NotificationUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Push_NotificationUITestsLaunchTests.m; sourceTree = "<group>"; };
+		FA6999BB2704790A00D4174D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6999BC2704790A00D4174D /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 				FA6999A02704785900D4174D /* Push NotificationTests */,
 				FA6999AA2704785900D4174D /* Push NotificationUITests */,
 				FA6999802704785400D4174D /* Products */,
+				FA6999BA2704790A00D4174D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +141,14 @@
 				FA6999AD2704785900D4174D /* Push_NotificationUITestsLaunchTests.m */,
 			);
 			path = "Push NotificationUITests";
+			sourceTree = "<group>";
+		};
+		FA6999BA2704790A00D4174D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA6999BB2704790A00D4174D /* UserNotifications.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -6,8 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+#import <UserNotifications/UserNotifications.h>
+@interface SceneDelegate : UIResponder <UIWindowSceneDelegate, UNUserNotificationCenterDelegate>
 
 @property (strong, nonatomic) UIWindow * window;
 

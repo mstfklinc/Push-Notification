@@ -6,9 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <UserNotifications/UserNotifications.h>
 
 @interface ViewController : UIViewController
 
+- (IBAction)showNotification:(id)sender;
 
 @end
 
